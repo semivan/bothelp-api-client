@@ -1,0 +1,29 @@
+{
+    "name": "semivan/bothelp-api-client",
+    "description": "PHP клиент для работы с API Bothelp.io",
+    "type": "library",
+	"license": "MIT",
+	"minimum-stability": "dev",
+    "keywords": [
+		"bothelp.io",
+        "bothelp",
+		"api",
+		"client",
+		"library"
+	],
+    "authors": [
+        {
+            "name": "Ivan Semenikhin",
+            "email": "semeninhin.ivan@gmail.com"
+        }
+    ],
+    "require": {
+		"php": "^7.1",
+        "symfony/http-client": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bothelp\\": "src/"
+        }
+    }
+}
