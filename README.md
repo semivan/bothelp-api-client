@@ -14,7 +14,7 @@ composer require semivan/bothelp-api-client
 
 ## Использование
 ```php
-$client = new \Bothelp\BothelpClient();
+$client = new \Bothelp\BothelpClient($clientId, $clientSecret);
 
 // Получить всех подписчиков
 $subscribers = $client->subscribers()->getAll();
